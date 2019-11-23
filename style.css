@@ -1,0 +1,43 @@
+body,html{
+    width: 100%;
+    height: 100%;
+   
+   background: url(light.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+      
+}
+.buffer{
+    height: 5rem;
+}
+
+h1{
+    font-size: 2rem;
+    color:white;
+}
+hr{
+    background-color: rgb(221, 212, 212);
+    border-width: 2px;
+    max-width: 500px;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.btn{
+    font-weight:700px;
+    border-radius:300px;
+    text-transform: uppercase;
+}
+.btn-success{
+  background-color:rgb(34, 34, 158);
+  border: rgb(34, 34, 158) ;
+}
+
+.btn-success:hover{
+    background-color:rgb(36, 129, 141) ;
+    border-color: rgb(36, 129, 141) ;
+    border-width: 4px;
+
+}
